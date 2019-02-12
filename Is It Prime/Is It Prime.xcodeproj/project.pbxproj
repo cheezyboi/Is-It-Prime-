@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80FB0F21FA050BF0093C9C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FB0F11FA050BF0093C9C5 /* AppDelegate.swift */; };
+		C80FB0F41FA050BF0093C9C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FB0F31FA050BF0093C9C5 /* ViewController.swift */; };
+		C80FB0F71FA050BF0093C9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80FB0F51FA050BF0093C9C5 /* Main.storyboard */; };
+		C80FB0F91FA050BF0093C9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80FB0F81FA050BF0093C9C5 /* Assets.xcassets */; };
+		C80FB0FC1FA050BF0093C9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80FB0FA1FA050BF0093C9C5 /* LaunchScreen.storyboard */; };
+		C80FB1071FA050BF0093C9C5 /* Is_It_PrimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FB1061FA050BF0093C9C5 /* Is_It_PrimeTests.swift */; };
+		C80FB1121FA050C00093C9C5 /* Is_It_PrimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FB1111FA050C00093C9C5 /* Is_It_PrimeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C80FB1031FA050BF0093C9C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80FB0E61FA050BF0093C9C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80FB0ED1FA050BF0093C9C5;
+			remoteInfo = "Is It Prime";
+		};
+		C80FB10E1FA050C00093C9C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80FB0E61FA050BF0093C9C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80FB0ED1FA050BF0093C9C5;
+			remoteInfo = "Is It Prime";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C80FB0EE1FA050BF0093C9C5 /* Is It Prime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Is It Prime.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80FB0F11FA050BF0093C9C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C80FB0F31FA050BF0093C9C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C80FB0F61FA050BF0093C9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C80FB0F81FA050BF0093C9C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C80FB0FB1FA050BF0093C9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C80FB0FD1FA050BF0093C9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80FB1021FA050BF0093C9C5 /* Is It PrimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Is It PrimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80FB1061FA050BF0093C9C5 /* Is_It_PrimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Is_It_PrimeTests.swift; sourceTree = "<group>"; };
+		C80FB1081FA050C00093C9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80FB10D1FA050C00093C9C5 /* Is It PrimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Is It PrimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80FB1111FA050C00093C9C5 /* Is_It_PrimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Is_It_PrimeUITests.swift; sourceTree = "<group>"; };
+		C80FB1131FA050C00093C9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C80FB0EB1FA050BF0093C9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80FB0FF1FA050BF0093C9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80FB10A1FA050C00093C9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C80FB0E51FA050BF0093C9C5 = {
+			isa = PBXGroup;
+			children = (
+				C80FB0F01FA050BF0093C9C5 /* Is It Prime */,
+				C80FB1051FA050BF0093C9C5 /* Is It PrimeTests */,
+				C80FB1101FA050C00093C9C5 /* Is It PrimeUITests */,
+				C80FB0EF1FA050BF0093C9C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C80FB0EF1FA050BF0093C9C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C80FB0EE1FA050BF0093C9C5 /* Is It Prime.app */,
+				C80FB1021FA050BF0093C9C5 /* Is It PrimeTests.xctest */,
+				C80FB10D1FA050C00093C9C5 /* Is It PrimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C80FB0F01FA050BF0093C9C5 /* Is It Prime */ = {
+			isa = PBXGroup;
+			children = (
+				C80FB0F11FA050BF0093C9C5 /* AppDelegate.swift */,
+				C80FB0F31FA050BF0093C9C5 /* ViewController.swift */,
+				C80FB0F51FA050BF0093C9C5 /* Main.storyboard */,
+				C80FB0F81FA050BF0093C9C5 /* Assets.xcassets */,
+				C80FB0FA1FA050BF0093C9C5 /* LaunchScreen.storyboard */,
+				C80FB0FD1FA050BF0093C9C5 /* Info.plist */,
+			);
+			path = "Is It Prime";
+			sourceTree = "<group>";
+		};
+		C80FB1051FA050BF0093C9C5 /* Is It PrimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C80FB1061FA050BF0093C9C5 /* Is_It_PrimeTests.swift */,
+				C80FB1081FA050C00093C9C5 /* Info.plist */,
+			);
+			path = "Is It PrimeTests";
+			sourceTree = "<group>";
+		};
+		C80FB1101FA050C00093C9C5 /* Is It PrimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C80FB1111FA050C00093C9C5 /* Is_It_PrimeUITests.swift */,
+				C80FB1131FA050C00093C9C5 /* Info.plist */,
+			);
+			path = "Is It PrimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C80FB0ED1FA050BF0093C9C5 /* Is It Prime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80FB1161FA050C00093C9C5 /* Build configuration list for PBXNativeTarget "Is It Prime" */;
+			buildPhases = (
+				C80FB0EA1FA050BF0093C9C5 /* Sources */,
+				C80FB0EB1FA050BF0093C9C5 /* Frameworks */,
+				C80FB0EC1FA050BF0093C9C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Is It Prime";
+			productName = "Is It Prime";
+			productReference = C80FB0EE1FA050BF0093C9C5 /* Is It Prime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C80FB1011FA050BF0093C9C5 /* Is It PrimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80FB1191FA050C00093C9C5 /* Build configuration list for PBXNativeTarget "Is It PrimeTests" */;
+			buildPhases = (
+				C80FB0FE1FA050BF0093C9C5 /* Sources */,
+				C80FB0FF1FA050BF0093C9C5 /* Frameworks */,
+				C80FB1001FA050BF0093C9C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80FB1041FA050BF0093C9C5 /* PBXTargetDependency */,
+			);
+			name = "Is It PrimeTests";
+			productName = "Is It PrimeTests";
+			productReference = C80FB1021FA050BF0093C9C5 /* Is It PrimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C80FB10C1FA050C00093C9C5 /* Is It PrimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80FB11C1FA050C00093C9C5 /* Build configuration list for PBXNativeTarget "Is It PrimeUITests" */;
+			buildPhases = (
+				C80FB1091FA050C00093C9C5 /* Sources */,
+				C80FB10A1FA050C00093C9C5 /* Frameworks */,
+				C80FB10B1FA050C00093C9C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80FB10F1FA050C00093C9C5 /* PBXTargetDependency */,
+			);
+			name = "Is It PrimeUITests";
+			productName = "Is It PrimeUITests";
+			productReference = C80FB10D1FA050C00093C9C5 /* Is It PrimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C80FB0E61FA050BF0093C9C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Chibuzor Ejimofor";
+				TargetAttributes = {
+					C80FB0ED1FA050BF0093C9C5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					C80FB1011FA050BF0093C9C5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C80FB0ED1FA050BF0093C9C5;
+					};
+					C80FB10C1FA050C00093C9C5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C80FB0ED1FA050BF0093C9C5;
+					};
+				};
+			};
+			buildConfigurationList = C80FB0E91FA050BF0093C9C5 /* Build configuration list for PBXProject "Is It Prime" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C80FB0E51FA050BF0093C9C5;
+			productRefGroup = C80FB0EF1FA050BF0093C9C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C80FB0ED1FA050BF0093C9C5 /* Is It Prime */,
+				C80FB1011FA050BF0093C9C5 /* Is It PrimeTests */,
+				C80FB10C1FA050C00093C9C5 /* Is It PrimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C80FB0EC1FA050BF0093C9C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80FB0FC1FA050BF0093C9C5 /* LaunchScreen.storyboard in Resources */,
+				C80FB0F91FA050BF0093C9C5 /* Assets.xcassets in Resources */,
+				C80FB0F71FA050BF0093C9C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80FB1001FA050BF0093C9C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80FB10B1FA050C00093C9C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C80FB0EA1FA050BF0093C9C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80FB0F41FA050BF0093C9C5 /* ViewController.swift in Sources */,
+				C80FB0F21FA050BF0093C9C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80FB0FE1FA050BF0093C9C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80FB1071FA050BF0093C9C5 /* Is_It_PrimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80FB1091FA050C00093C9C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80FB1121FA050C00093C9C5 /* Is_It_PrimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C80FB1041FA050BF0093C9C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80FB0ED1FA050BF0093C9C5 /* Is It Prime */;
+			targetProxy = C80FB1031FA050BF0093C9C5 /* PBXContainerItemProxy */;
+		};
+		C80FB10F1FA050C00093C9C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80FB0ED1FA050BF0093C9C5 /* Is It Prime */;
+			targetProxy = C80FB10E1FA050C00093C9C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C80FB0F51FA050BF0093C9C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80FB0F61FA050BF0093C9C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C80FB0FA1FA050BF0093C9C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80FB0FB1FA050BF0093C9C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C80FB1141FA050C00093C9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C80FB1151FA050C00093C9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C80FB1171FA050C00093C9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Is It Prime/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoegwarts.Is-It-Prime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C80FB1181FA050C00093C9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Is It Prime/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoegwarts.Is-It-Prime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C80FB11A1FA050C00093C9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Is It PrimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoegwarts.Is-It-PrimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Is It Prime.app/Is It Prime";
+			};
+			name = Debug;
+		};
+		C80FB11B1FA050C00093C9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Is It PrimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoegwarts.Is-It-PrimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Is It Prime.app/Is It Prime";
+			};
+			name = Release;
+		};
+		C80FB11D1FA050C00093C9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Is It PrimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoegwarts.Is-It-PrimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Is It Prime";
+			};
+			name = Debug;
+		};
+		C80FB11E1FA050C00093C9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Is It PrimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoegwarts.Is-It-PrimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Is It Prime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C80FB0E91FA050BF0093C9C5 /* Build configuration list for PBXProject "Is It Prime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80FB1141FA050C00093C9C5 /* Debug */,
+				C80FB1151FA050C00093C9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80FB1161FA050C00093C9C5 /* Build configuration list for PBXNativeTarget "Is It Prime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80FB1171FA050C00093C9C5 /* Debug */,
+				C80FB1181FA050C00093C9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80FB1191FA050C00093C9C5 /* Build configuration list for PBXNativeTarget "Is It PrimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80FB11A1FA050C00093C9C5 /* Debug */,
+				C80FB11B1FA050C00093C9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80FB11C1FA050C00093C9C5 /* Build configuration list for PBXNativeTarget "Is It PrimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80FB11D1FA050C00093C9C5 /* Debug */,
+				C80FB11E1FA050C00093C9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C80FB0E61FA050BF0093C9C5 /* Project object */;
+}
